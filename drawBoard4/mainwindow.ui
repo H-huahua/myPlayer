@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QCheckBox" name="LineCheckBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>73</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>直线</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="textCheckBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>160</y>
+      <width>73</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>文字</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="rectangleCheckBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>73</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>矩形</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="circleCheckBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>73</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>圆形</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="boldBtn">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>0</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>加粗</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="IncreaseBtn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>增大</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="decreaseBtn">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>0</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>减小</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="italicBtn">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>0</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>斜体</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="colorComboBox">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>0</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fillColorButton">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>0</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选择填充颜色</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="fillCheckBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>73</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>填充</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>菜单</string>
+    </property>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionExit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
